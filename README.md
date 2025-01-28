@@ -41,11 +41,11 @@ The Student Management System (SMS) is a robust Java-based application designed 
 - **Controller**: Manages business logic, processes user inputs, and updates the Model and View.
 
 ### Packages:
-- `Controller`: Manages CRUD operations and business logic.
-- `Service`: Implements core functionalities such as event handling and validation.
+- `Controller`: Implements core functionalities such as event handling and validation.Manages CRUD operations and business logic.
+- `Service`: Manages CRUD operations and business logic.
 - `DAO`: Provides file-based data storage and retrieval operations.
 - `Entity`: Defines core objects like `StudentEntity`, `AdminEntity`, `CoursesEntity`, etc.
-- `Form`: Handles forms such as `StudentForm`, `AdminForm`, ensuring input is processed properly.
+- `Form`: Handles forms such as `StudentForm`, `AdminForm` etc, ensuring input is processed properly.
 
 ### Data Storage:
 - Uses a map-based file system:
